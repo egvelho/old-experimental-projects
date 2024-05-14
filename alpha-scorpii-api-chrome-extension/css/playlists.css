@@ -1,0 +1,18 @@
+#apprentice-playlists span{
+
+	display: block;
+	width: 640px;
+	height: 64px;
+	line-height: 64px;
+	color: #F2F2F2;
+	margin: 8px auto 8px auto;
+	background-color: #9349b2;
+	text-align: center;
+
+}
+
+#apprentice-playlists span:hover{
+
+	background-color: #2F2F2F;
+
+}

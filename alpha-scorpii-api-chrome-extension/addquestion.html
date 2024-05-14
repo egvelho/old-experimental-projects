@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/createaccount.css" rel="stylesheet">
+		<script src="js/script.js" type="text/javascript"></script>
+		<script src="js/mastermenu.js" type="text/javascript"></script>
+		<script src="js/addquestion.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<header>
+			<input type="checkbox" class="open-menu" id="open-main-menu">
+			<label for="open-main-menu" class="open-menu-label">Menu</label>
+			<div class="menu left-menu" id="main-menu">
+				<span class="menu-item" id="main">Gerenciar playlists</span>
+				<span class="menu-item" id="add-question">Adicionar questão</span>
+				<span class="menu-item" id="add-apprentice">Adicionar aprendiz</span>
+				<span class="menu-item" id="edit-profile">Alterar cadastro</span>
+				<span class="menu-item" id="logout">Sair</span>
+			</div>
+			<h1 id="logo">Adicionar questão</h1>
+		</header>
+		<form class="tab" style="display:block;">
+			<label for="title">Título</label>
+			<input type="text" id="title">
+			<label for="area">Área do conhecimento</label>
+			<select id="area">
+				<option value="1">Matemática e suas tecnologias</option>
+				<option value="2">Ciências e suas tecnologias</option>
+				<option value="3">Linguagens e suas tecnologias</option>
+			</select>
+			<label for="a">Alternativa A</label>
+			<input type="text" id="a">
+			<label for="b">Alternativa B</label>
+			<input type="text" id="b">
+			<label for="c">Alternativa C</label>
+			<input type="text" id="c">
+			<label for="d">Alternativa D</label>
+			<input type="text" id="d">
+			<label for="e">Alternativa E</label>
+			<input type="text" id="e">
+			<label for="answer">Alternativa Correta</label>
+			<select id="answer">
+				<option value="A">Alternativa A</option>
+				<option value="B">Alternativa B</option>
+				<option value="C">Alternativa C</option>
+				<option value="D">Alternativa D</option>
+				<option value="E">Alternativa E</option>
+			</select>
+			<input type="button" id="submit" class="submit" value="Enviar">
+		</form>
+	</body>
+</html>

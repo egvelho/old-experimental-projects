@@ -1,0 +1,12 @@
+{
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "prettier.tabWidth": 4,
+    "prettier.semi": true,
+    "prettier.singleQuote": false,
+    "prettier.trailingComma": "all",
+    "javascript.format.enable": false,
+    "npm.autoDetect": "on",
+    "typescript.tsdk": "node_modules\\typescript\\lib"
+}

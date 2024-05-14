@@ -1,0 +1,78 @@
+#apprentices{
+
+	overflow: auto;
+	height: 498px;
+	width: 300px;
+	background-color: #3F3F3F;
+	position: absolute;
+	top: 64px;
+	left: 0;
+
+}
+
+#apprentices span{
+
+	display: block;
+	color: #F2F2F2;
+	text-align: center;
+	padding: 16px 0 16px 0;
+	
+}
+
+#apprentices span:hover{
+
+	background-color: #c0392b;
+
+}
+
+#questions{
+
+	overflow: auto;
+	width: 485px;
+	height: 498px;
+	top: 64px;
+	left: 300px;
+	position: absolute;
+
+}
+
+#questions input[ type='checkbox' ]{
+
+	display: none;
+
+}
+
+#questions input[ type='checkbox' ]:checked + label:before{
+
+	content: "[Selecionado] ";
+	color: #27ae60;
+	
+}
+
+#questions label{
+
+	display: block;
+	padding: 16px;
+	line-height: 1.5;
+	font-size: 18px;
+	text-align: justify;
+	cursor: pointer;
+
+}
+
+#search-bar{
+
+	display: block;
+	position: absolute;
+	width: 181px;
+	height: 32px;
+	margin: 16px 0 16px 0;
+	left: 300px;
+	position: fixed;
+	top: 0;
+	border: 1px #2F2F2F solid;
+	font-size: 12px;
+	color: #2F2F2F;
+	padding-left: 4px;
+
+}

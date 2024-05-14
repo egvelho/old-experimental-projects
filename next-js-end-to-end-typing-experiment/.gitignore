@@ -1,0 +1,13 @@
+.env
+.next
+.ssl
+.temp-public
+.temp-next
+.temp-dev-public
+.temp-dev-next
+node_modules
+database.sqlite
+public/*
+!public/.gitkeep
+storage/*
+!storage/.gitkeep

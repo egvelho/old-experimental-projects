@@ -1,0 +1,50 @@
+<html lang="pt-br">
+    <head>
+        <title><%= require('./assets/manifest.json').name %></title>
+        <meta
+            name="description"
+            content="<%= require('./assets/manifest.json').description %>"
+        />
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, user-scalable=no"
+        />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta
+            name="application-name"
+            content="<%= require('./assets/manifest.json').short_name %>"
+        />
+        <meta
+            name="theme-color"
+            content="<%= require('./assets/manifest.json').theme_color %>"
+        />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="194x194"
+            href="/favicon-194x194.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="/android-chrome-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png"
+        />
+    </head>
+    <body></body>
+</html>

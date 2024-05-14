@@ -1,0 +1,18 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "outDir": ".next",
+        "module": "commonjs",
+        "target": "es2017",
+        "isolatedModules": false,
+        "noEmit": false
+    },
+    "include": [
+        "./app/**/*.factory.ts",
+        "./app/**/*.seed.ts",
+        "./app/**/*.entity.ts",
+        "./app/**/*.subscription.ts",
+        "./migrations/**/*.ts"
+    ],
+    "exclude": ["**/node_modules", "**/.*/"]
+}

@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "jsx": "preserve",
+        "strict": true,
+        "pretty": true,
+        "checkJs": false,
+        "noImplicitAny": true,
+        "alwaysStrict": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "lib": ["esnext", "dom"],
+        "baseUrl": ".",
+        "typeRoots": ["node_modules/@types", "types"],
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "resolveJsonModule": true,
+        "noUnusedLocals": false,
+        "strictNullChecks": true,
+        "allowJs": true,
+        "isolatedModules": true,
+        "paths": {
+            "@root/*": ["./*"],
+            "@pages/*": ["./pages/*"],
+            "@app/*": ["./app/*"],
+            "@api/*": ["./pages/api/*"]
+        }
+    },
+    "include": ["app/**/*", "pages/**/*"],
+    "exclude": ["**/node_modules", "**/.*/"]
+}

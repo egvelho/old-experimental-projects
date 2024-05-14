@@ -1,0 +1,85 @@
+.tab{
+
+	display: none;
+	width: 480px;
+	height: 320px;
+	top: 50%;
+	left: 50%;
+	margin-left: -240px;
+	margin-top: -160px;
+	position: absolute;
+	background-color: #bdc3c7;
+	border: 1px solid #9f9f9f;
+	overflow: auto;
+
+}
+
+.tab *{
+
+	display: block;
+
+}
+
+.tab input, .tab select{
+
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.tab label{
+
+	color: 2f2f2f;
+	padding: 8px 0 8px 0;
+	text-align: center;
+	font-size: 16px;
+
+}
+
+.submit{
+
+	margin: 8px;
+
+}
+
+.display-tab{
+
+	display: none;
+
+}
+
+.display-tab-label, #back-button{
+
+	background-color: #2f2f2f;
+	color: #ecf0f1;
+	padding: 8px;
+	display: block;
+	float: left;
+	margin: 8px 0 0 8px;
+	border: 1px solid #bdc3c7;
+
+}
+
+.display-tab-label:hover, #back-button:hover{
+
+	background-color: #3498db;
+
+}
+
+#back-button:hover{
+
+	text-decoration: none;
+
+}
+
+.display-tab:checked + .display-tab-label{
+
+	background-color: #3498db;
+
+}
+
+.display-tab:checked + .display-tab-label + .tab{
+
+	display: block;
+
+}

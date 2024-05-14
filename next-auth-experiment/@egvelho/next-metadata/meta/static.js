@@ -1,0 +1,60 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MetaStatic = void 0;
+var tslib_1 = require("tslib");
+var react_1 = tslib_1.__importDefault(require("react"));
+var head_1 = tslib_1.__importDefault(require("next/head"));
+function MetaStatic() {
+    return (react_1.default.createElement(head_1.default, null,
+        react_1.default.createElement("meta", { charSet: "utf-8" }),
+        react_1.default.createElement("meta", { name: "viewport", content: "width=device-width, initial-scale=1, user-scalable=no" }),
+        react_1.default.createElement("meta", { httpEquiv: "x-ua-compatible", content: "ie=edge" }),
+        react_1.default.createElement("meta", { property: "og:type", content: "website" }),
+        react_1.default.createElement("meta", { name: "mobile-web-app-capable", content: "yes" }),
+        react_1.default.createElement("meta", { name: "apple-mobile-web-app-capable", content: "yes" }),
+        react_1.default.createElement("meta", { name: "apple-mobile-web-app-status-bar-style", content: "default" }),
+        react_1.default.createElement("link", { rel: "manifest", href: "/manifest.json" }),
+        react_1.default.createElement("meta", { name: "msapplication-config", content: "/browserconfig.xml" }),
+        react_1.default.createElement("meta", { name: "twitter:card", content: "summary" }),
+        react_1.default.createElement("link", { rel: "shortcut icon", href: "/favicon.ico" }),
+        react_1.default.createElement("link", { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon-16x16.png" }),
+        react_1.default.createElement("link", { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png" }),
+        react_1.default.createElement("link", { rel: "icon", type: "image/png", sizes: "48x48", href: "/favicon-48x48.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-icon", sizes: "57x57", href: "/apple-touch-icon-57x57.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-icon", sizes: "60x60", href: "/apple-touch-icon-60x60.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-icon", sizes: "72x72", href: "/apple-touch-icon-72x72.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-icon", sizes: "76x76", href: "/apple-touch-icon-76x76.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-icon", sizes: "114x114", href: "/apple-touch-icon-114x114.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-icon", sizes: "120x120", href: "/apple-touch-icon-120x120.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-icon", sizes: "144x144", href: "/apple-touch-icon-144x144.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-icon", sizes: "152x152", href: "/apple-touch-icon-152x152.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-icon", sizes: "167x167", href: "/apple-touch-icon-167x167.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon-180x180.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-icon", sizes: "1024x1024", href: "/apple-touch-icon-1024x1024.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)", href: "/apple-touch-startup-image-640x1136.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)", href: "/apple-touch-startup-image-750x1334.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)", href: "/apple-touch-startup-image-828x1792.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)", href: "/apple-touch-startup-image-1125x2436.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)", href: "/apple-touch-startup-image-1242x2208.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)", href: "/apple-touch-startup-image-1242x2688.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)", href: "/apple-touch-startup-image-1536x2048.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)", href: "/apple-touch-startup-image-1668x2224.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)", href: "/apple-touch-startup-image-1668x2388.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)", href: "/apple-touch-startup-image-2048x2732.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)", href: "/apple-touch-startup-image-1620x2160.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)", href: "/apple-touch-startup-image-1136x640.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)", href: "/apple-touch-startup-image-1334x750.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)", href: "/apple-touch-startup-image-1792x828.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)", href: "/apple-touch-startup-image-2436x1125.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)", href: "/apple-touch-startup-image-2208x1242.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)", href: "/apple-touch-startup-image-2688x1242.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)", href: "/apple-touch-startup-image-2048x1536.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)", href: "/apple-touch-startup-image-2224x1668.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)", href: "/apple-touch-startup-image-2388x1668.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)", href: "/apple-touch-startup-image-2732x2048.png" }),
+        react_1.default.createElement("link", { rel: "apple-touch-startup-image", media: "(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)", href: "/apple-touch-startup-image-2160x1620.png" }),
+        react_1.default.createElement("link", { rel: "icon", type: "image/png", sizes: "228x228", href: "/coast-228x228.png" }),
+        react_1.default.createElement("meta", { name: "msapplication-TileImage", content: "/mstile-144x144.png" })));
+}
+exports.MetaStatic = MetaStatic;
+//# sourceMappingURL=static.js.map

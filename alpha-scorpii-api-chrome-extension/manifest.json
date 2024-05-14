@@ -1,0 +1,9 @@
+{
+  "name": "Alpha Scorpii",
+  "description": "O app que ajuda você a estudar.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "app": { "background": { "scripts": ["js/background.js"] } },
+  "icons": { "16": "img/star-16.png", "128": "img/star-128.png" },
+  "permissions": [ "http://alphascorpii.pythonanywhere.com/", "storage" ]
+}

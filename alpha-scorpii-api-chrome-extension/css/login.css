@@ -1,0 +1,61 @@
+#login{
+
+	width: 320px;
+	height: 320px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	margin-left: -160px;
+	margin-top: -160px;
+	background-color: #bdc3c7;
+	border: 1px solid #9f9f9f;
+
+}
+
+#login *{
+
+	display: block;
+
+}
+
+#login input{
+
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#login label{
+
+	color: 2f2f2f;
+	padding: 8px 0 8px 0;
+	text-align: center;
+	font-size: 16px;
+
+}
+
+#create-account{
+
+	text-align: center;
+	font-size: 14px;
+	position: absolute;
+	bottom: 32px;
+	left: 8px;
+	
+}
+
+#forget-password, #back-to-login{
+
+	text-align: center;
+	font-size: 14px;
+	position: absolute;
+	bottom: 8px;
+	left: 8px;
+	
+}
+
+#submit{
+
+	margin-top: 8px;
+
+}

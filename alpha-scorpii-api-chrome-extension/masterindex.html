@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/masterindex.css" rel="stylesheet">
+		<script src="js/script.js" type="text/javascript"></script>
+		<script src="js/mastermenu.js" type="text/javascript"></script>
+		<script src="js/masterindex.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<header>
+			<input type="checkbox" class="open-menu" id="open-main-menu">
+			<label for="open-main-menu" class="open-menu-label">Menu</label>
+			<div class="menu left-menu" id="main-menu">
+				<span class="menu-item" id="main">Gerenciar playlists</span>
+				<span class="menu-item" id="add-question">Adicionar questão</span>
+				<span class="menu-item" id="add-apprentice">Adicionar aprendiz</span>
+				<span class="menu-item" id="edit-profile">Alterar cadastro</span>
+				<span class="menu-item" id="logout">Sair</span>
+			</div>
+			<input type="text" id="search-bar" placeholder="Pesquisar questões...">
+			<h1 id="logo">Gerenciar playlists</h1>
+		</header>
+		<section id="apprentices"></section>
+		<section id="questions">
+		</section>
+		<input type="hidden" id="apprentice-id">
+	</body>
+</html>

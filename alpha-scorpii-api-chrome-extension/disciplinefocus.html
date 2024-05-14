@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/login.css" rel="stylesheet">
+		<link href="css/questions.css" rel="stylesheet">
+		<script src="js/script.js" type="text/javascript"></script>
+		<script src="js/questions.js" type="text/javascript"></script>
+		<script src="js/apprenticemenu.js" type="text/javascript"></script>
+		<script src="js/disciplinefocus.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<header>
+			<input type="checkbox" class="open-menu" id="open-main-menu">
+			<label for="open-main-menu" class="open-menu-label">Menu</label>
+			<div class="menu left-menu" id="main-menu">
+				<span class="menu-item" id="main">Minha página</span>
+				<span class="menu-item" id="edit-profile">Alterar cadastro</span>
+				<span class="menu-item" id="discipline-focus">Ênfase Disciplinar</span>
+				<span class="menu-item" id="status">Status</span>
+				<span class="menu-item" id="rush">Modo Rush</span>
+				<span class="menu-item" id="playlists">Playlists</span>
+				<span class="menu-item" id="logout">Sair</span>
+			</div>
+			<h1 id="logo">Ênfase disciplinar</h1>
+		</header>
+		<form id="login">
+			<label for="math" id="math-label">Matemática e suas tecnologias</label>
+			<input type="range" min="1" max="10" step="1" id="math">
+			<label for="science" id="science-label">Ciências e suas tecnologias</label>
+			<input type="range" min="1" max="10" step="1" id="science">
+			<label for="language" id="language-label">Linguagens e suas tecnologias</label>
+			<input type="range" min="1" max="10" step="1" id="language">
+			<input type="button" id="submit" class="submit" value="Enviar">
+		</form>
+	</body>
+</html>

@@ -1,0 +1,75 @@
+body{
+
+	margin-bottom: 12px;
+
+}
+
+.inner-header{
+
+	padding: 12px 0 0 6px;
+	text-align: center;
+	font-variant: small-caps;
+
+}
+
+.question{
+
+	width: 733px;
+	height: 320px;
+	display: block;
+	margin-top: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f2f2f2;
+	color: #2f2f2f;
+	border: 1px solid #9f9f9f;
+	text-align: justify;
+	overflow-y: auto;
+	font-size: 12px;
+	padding: 8px;
+
+}
+
+.question:hover{
+
+	cursor: pointer;
+
+}
+
+.question:hover:before{
+
+	content: "Clique para resolver";
+	color: #e74c3c;
+	position: absolute;
+
+}
+
+.question h2{
+
+	color: #6A6A6A;
+	font-size: 18;
+	font-weight: normal;
+	text-align: center;
+
+}
+
+#timeout{
+
+	width: 320px;
+	height: 64px;
+	background-color: #2F2F2F;
+	color: #F2F2F2;
+	padding: 8px;
+	text-align: center;
+	margin: 12px auto 12px auto;
+
+}
+
+#timeout input[ type='range' ]{
+
+	margin-top: 16px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}

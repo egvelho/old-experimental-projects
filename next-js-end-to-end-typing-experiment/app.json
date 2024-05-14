@@ -1,0 +1,17 @@
+{
+    "name": "universal-typescript-next-js-end-to-end-typing-boilerplate",
+    "shortName": "universal-typescript-next-js-end-to-end-typing-boilerplate",
+    "description": "",
+    "twitterAt": "",
+    "facebookAppId": "",
+    "iconPath": "icon.svg",
+    "version": "1.0",
+    "lang": "pt-BR",
+    "developerName": "",
+    "developerURL": "",
+    "backgroundColor": "#f5f5f5",
+    "dashColor": "#fff",
+    "primaryColor": "#4e0f3b",
+    "secondaryColor": "#0a3137",
+    "orientation": "portrait"
+}

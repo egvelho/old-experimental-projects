@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/createaccount.css" rel="stylesheet">
+		<script src="js/script.js" type="text/javascript"></script>
+		<script src="js/createaccount.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<header>
+			<h1 id="logo">Alpha Scorpii</h1>
+		</header>
+		<a href="login.html" id="back-button">Voltar</a>
+		<input type="radio" class="display-tab" id="create-apprentice-account-radio" name="create-account-radio" checked>
+		<label class="display-tab-label" for="create-apprentice-account-radio">Criar conta de aprendiz</label>
+		<form id="create-apprentice-account" class="tab">
+			<label for="apprentice-name">Nome completo</label>
+			<input type="text" id="apprentice-name">
+			<label for="apprentice-email">Email</label>
+			<input type="text" id="apprentice-email">
+			<label for="apprentice-password">Senha</label>
+			<input type="password" id="apprentice-password">
+			<label for="apprentice-confirm-password">Confirmar senha</label>
+			<input type="password" id="apprentice-confirm-password">
+			<input type="button" id="apprentice-submit" class="submit" value="Criar conta">
+		</form>
+		<input type="radio" class="display-tab" id="create-master-account-radio" name="create-account-radio">
+		<label class="display-tab-label" for="create-master-account-radio">Criar conta de mestre</label>
+		<form id="create-master-account" class="tab">
+			<label for="master-name">Nome completo</label>
+			<input type="text" id="master-name">
+			<label for="master-degree">Título</label>
+			<input type="text" id="master-degree" placeholder="Ex: Doutor em Educação">
+			<label for="master-institution">Instituição de ensino a qual pertence</label>
+			<select id="master-institution"></select>
+			<label for="master-email">Email</label>
+			<input type="text" id="master-email">
+			<label for="master-password">Senha</label>
+			<input type="password" id="master-password">
+			<label for="master-confirm-password">Confirmar senha</label>
+			<input type="password" id="master-confirm-password">
+			<input type="button" id="master-submit" class="submit" value="Criar conta">
+		</form>
+	</body>
+</html>

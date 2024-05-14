@@ -1,0 +1,21 @@
+{
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "prettier.tabWidth": 4,
+    "prettier.semi": true,
+    "prettier.singleQuote": false,
+    "prettier.trailingComma": "all",
+    "javascript.format.enable": false,
+    "npm.autoDetect": "on",
+    "elm.showSuggestionsInElmSyntax": true,
+    "elm.userProjectIntellisense": true,
+    "elm.useWorkSpaceRootForElmRoot": true,
+    "elm.analyseEnabled": true,
+    "elm.analyseCommand": ".\\node_modules\\.bin\\elm-analyse",
+    "elm.analysePort": "3379",
+    "elm.includeUserFunctionDocumentation": true,
+    "elm.compiler": ".\\node_modules\\.bin\\elm",
+    "elm.formatCommand": ".\\node_modules\\.bin\\elm-format",
+    "elm.makeCommand": ".\\node_modules\\.bin\\elm make"
+}
